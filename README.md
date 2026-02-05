@@ -1,15 +1,1 @@
-# Internship-Tasks
-# Python program to print personal details
 
-name = "Eranna"
-age = 24
-college = "KLS Gogte Institute of Technology"
-place = "Belagavi"
-course = "Master Of Computer Application"
-
-print("----- Personal Details -----")
-print("Name   :", name)
-print("Age    :", age)
-print("College:", college)
-print("Place  :", place)
-print("Course :", course)
