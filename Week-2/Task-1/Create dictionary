@@ -1,0 +1,21 @@
+# Create dictionary
+student = {
+    "name": "Eranna",
+    "age": 21,
+    "course": "MCA",
+    "college": "KLS Gogte Institute of Technology"
+}
+
+print("Student Details:")
+print(student)
+# Add new element
+student["city"] = "Hospet"
+print("After Adding City:", student)
+
+# Update element
+student["age"] = 22
+print("After Updating Age:", student)
+
+# Delete element
+del student["course"]
+print("After Deleting Course:", student)
