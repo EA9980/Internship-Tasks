@@ -1,0 +1,25 @@
+#Python Lists & Tuples
+
+# 1. Create and display a list
+numbers = [45, 12, 89, 23, 67]
+
+print("Original List:", numbers)
+
+# 2. Find largest and smallest number in a list
+largest = max(numbers)
+smallest = min(numbers)
+
+print("Largest number in the list:", largest)
+print("Smallest number in the list:", smallest)
+
+# 3. Sort list in ascending order
+numbers.sort()
+print("List in Ascending Order:", numbers)
+
+# Sort list in descending order
+numbers.sort(reverse=True)
+print("List in Descending Order:", numbers)
+
+# 4. Convert list to tuple
+numbers_tuple = tuple(numbers)
+print("Converted Tuple:", numbers_tuple)
