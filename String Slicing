@@ -1,0 +1,9 @@
+# String Slicing Example
+
+string = input("Enter a string: ")
+
+print("First 3 characters:", string[:3])
+print("Last 3 characters:", string[-3:])
+print("Every second character:", string[::2])
+print("Reverse using slicing:", string[::-1])
+
