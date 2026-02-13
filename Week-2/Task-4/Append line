@@ -1,0 +1,6 @@
+# Append line
+file = open("sample.txt", "a")   
+file.write("\nThis is appended line.")
+file.close()
+
+print("Data appended successfully!")
