@@ -1,0 +1,7 @@
+# Create and write into a file
+file = open("task4.txt", "w")  
+file.write("creating a file\n")
+file.write("Welcome to Python File Handling")
+file.close()
+
+print("File created and data written successfully!")
