@@ -1,0 +1,5 @@
+# Read file content
+file = open("task4.txt", "r")  
+data = file.read()
+print("File Content:\n", data)
+file.close()
