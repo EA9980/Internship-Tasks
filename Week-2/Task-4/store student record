@@ -1,0 +1,12 @@
+# Store student records
+file = open("students.txt", "w")
+
+n = int(input("Enter number of students: "))
+
+for i in range(n):
+    name = input("Enter Name: ")
+    marks = input("Enter Marks: ")
+    file.write(name + " - " + marks + "\n")
+
+file.close()
+print("Student records saved successfully!")
