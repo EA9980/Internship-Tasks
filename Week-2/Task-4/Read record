@@ -1,0 +1,4 @@
+file = open("students.txt", "r")
+print("\nStudent Records:")
+print(file.read())
+file.close()
