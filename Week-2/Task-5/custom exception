@@ -1,0 +1,17 @@
+# Custom exception example
+
+class AgeError(Exception):
+    pass
+
+try:
+    age = int(input("Enter your age: "))
+    
+    if age < 18:
+        raise AgeError("You must be 18 or older!")
+    
+    print("Access Granted.")
+    
+except AgeError as e:
+    print("Custom Exception:", e)
+except ValueError:
+    print("Invalid input! Please enter a valid age.")
