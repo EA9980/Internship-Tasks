@@ -1,0 +1,11 @@
+# File handling with exception
+
+try:
+    file = open("Task4.txt", "r")
+    content = file.read()
+    print(content)
+    file.close()
+except FileNotFoundError:
+    print("Error! File not found.")
+except IOError:
+    print("Error! Cannot read the file.")
