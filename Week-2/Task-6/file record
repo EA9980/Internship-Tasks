@@ -1,0 +1,25 @@
+# File Record System
+
+def add_record():
+    file = open("student.txt", "a")
+    name = input("Enter name: ")
+    file.write(name + "\n")
+    file.close()
+    print("Record added")
+
+def display_record():
+    file = open("student.txt", "r")
+    print("Student Records:")
+    print(file.read())
+    file.close()
+
+while True:
+    print("\n1.Add Record\n2.Display Record\n3.Exit")
+    ch = input("Enter choice: ")
+
+    if ch == '1':
+        add_record()
+    elif ch == '2':
+        display_record()
+    elif ch == '3':
+        break
