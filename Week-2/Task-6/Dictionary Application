@@ -1,0 +1,24 @@
+# Dictionary Application
+
+student = {}
+
+def add():
+    name = input("Enter name: ")
+    marks = int(input("Enter marks: "))
+    student[name] = marks
+    print("Added successfully")
+
+def display():
+    for name, marks in student.items():
+        print(name, ":", marks)
+
+while True:
+    print("\n1.Add Student Marks\n2.Display\n3.Exit")
+    choice = input("Enter choice: ")
+
+    if choice == '1':
+        add()
+    elif choice == '2':
+        display()
+    elif choice == '3':
+        break
