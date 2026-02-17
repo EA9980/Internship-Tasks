@@ -1,0 +1,34 @@
+Day 7 – Assessment & Submission
+I have successfully completed all the assigned tasks from Day 1 to Day 6 and submitted them as part of the Week 2 assessment. All programs have been executed, verified, and documented properly. All Python programs have been uploaded to GitHub with a structured folder arrangement. Output screenshots for each program have been captured and uploaded. The README file has been updated with program descriptions along with Expected and Actual Outcomes. The GitHub repository link has been submitted within the given deadline.
+
+Day 1 – Python Lists & Tuples
+On Day 1, I worked with Python lists and tuples. I created and displayed lists, found the largest and smallest numbers in a list, and sorted lists in both ascending and descending order. I also converted lists into tuples to understand immutability and data structure differences.
+
+Day 2 – Dictionaries & Sets
+On Day 2, I implemented dictionary and set operations. I created a dictionary to store student details and performed add, update, and delete operations. I also developed a program to count word frequency using dictionaries. Additionally, I performed set operations such as union, intersection, and difference.
+
+Day 3 – Strings & Operations
+On Day 3, I worked on string manipulation programs. I implemented programs to reverse a string, check whether a string is a palindrome, count vowels and consonants, calculate character frequency, and perform string slicing operations.
+
+Day 4 – File Handling
+On Day 4, I practiced file handling concepts in Python. I created files, wrote data into files, read file contents, and appended new data. I also implemented a program to store and retrieve student records using file operations.
+
+Day 5 – Exception Handling (AXILEX PVT LTD)
+On Day 5, I focused on exception handling. I wrote programs using try-except blocks to handle runtime errors. I handled division by zero errors and file-related exceptions. I also implemented a custom exception example as part of the AXILEX PVT LTD assignment.
+
+Day 6 – Mini Practice Programs
+On Day 6, I developed mini practice programs to apply all learned concepts. These included a student management system, a calculator using functions, a menu-driven program, a file-based record system, and a dictionary-based application. These programs were structured using functions and proper logic.
+
+Submission Details
+All Python programs have been uploaded to GitHub
+Output screenshots have been uploaded
+README file has been updated with Expected and Actual Outcomes
+GitHub repository link has been submitted on time
+Expected Outcome (End of Week 2) – Achieved
+Work with Python collections I used lists, tuples, dictionaries, and sets to store and manipulate data efficiently. Operations like sorting, searching, frequency counting, and set operations were implemented.
+
+Handle files I created, read, wrote, and appended data to files using Python file handling. Student records were stored and retrieved using file-based programs.
+
+Manage runtime errors I handled runtime errors using try-except blocks for division and file-related issues. Custom exceptions were also implemented to manage user-defined errors.
+
+Write structured programs Programs were written using functions and menu-driven logic for better structure. This improved code readability, reusability, and easier debugging.
