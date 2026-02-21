@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design - Book Store</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>Responsive Design with <span>BookWorld</span></h1>
+    <h3>Popular Books Collection</h3>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+        <h4>The Silent Forest</h4>
+        <p>A mystery novel that explores secrets hidden deep within an ancient forest.</p>
+        <h5>Author: John Carter</h5>
+        <button><a href="#">Read More</a></button>
+    </div>
+
+    <div class="card">
+        <h4>Wings of Fire</h4>
+        <p>An inspiring autobiography about dreams, determination, and success.</p>
+        <h5>Author: A.P.J. Abdul Kalam</h5>
+        <button><a href="#">Read More</a></button>
+    </div>
+
+    <div class="card">
+        <h4>The Lost Kingdom</h4>
+        <p>A fantasy adventure about a prince fighting to reclaim his throne.</p>
+        <h5>Author: Sarah Williams</h5>
+        <button><a href="#">Read More</a></button>
+    </div>
+
+    <div class="card">
+        <h4>Think and Grow Rich</h4>
+        <p>A motivational book that teaches principles of success and wealth creation.</p>
+        <h5>Author: Napoleon Hill</h5>
+        <button><a href="#">Read More</a></button>
+    </div>
+
+    <div class="card">
+        <h4>The Science of Coding</h4>
+        <p>A beginner-friendly guide to understanding programming concepts.</p>
+        <h5>Author: David Miller</h5>
+        <button><a href="#">Read More</a></button>
+    </div>
+
+    <div class="card">
+        <h4>Mindset Mastery</h4>
+        <p>Learn how positive thinking can transform your personal and professional life.</p>
+        <h5>Author: Emily Brown</h5>
+        <button><a href="#">Read More</a></button>
+    </div>
+
+    <div class="card">
+        <h4>The Power of Habits</h4>
+        <p>An insightful book about how habits shape our daily routines and success.</p>
+        <h5>Author: Charles Duhigg</h5>
+        <button><a href="#">Read More</a></button>
+    </div>
+
+  </div>
+
+</body>
+</html>
