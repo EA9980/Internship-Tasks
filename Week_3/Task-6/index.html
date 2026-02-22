@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Basics</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h2>1. Alert Example</h2>
+    <button onclick="showAlert()">Click Me</button>
+
+    <h2>2. Form Validation</h2>
+    <form onsubmit="return validateForm()">
+        Name: <input type="text" id="name"><br><br>
+        Email: <input type="email" id="email"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>3. Simple Calculator</h2>
+    <input type="number" id="num1">
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="num2">
+    <button onclick="calculate()">Calculate</button>
+    <p id="result"></p>
+
+    <h2>4. Change Text</h2>
+    <p id="text">Original Text</p>
+    <button onclick="changeText()">Change Text</button>
+
+</body>
+</html>
