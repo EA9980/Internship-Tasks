@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mini Frontend Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">AxileX</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>About AxileX</h2>
+                <p>Our Company
+AxileX Group of Companies is a multi-industry business conglomerate established in 2017 with a vision to redefine industries through innovation, technology, and excellence. What started as an IT service and consultancy company has expanded into nine major sectors, covering technology, telecommunications, real estate, fashion, electronics, food & beverages, and luxury goods.</p>
+                
+                <div class="info-item">
+                    <span class="info-icon">📍</span>
+                    <div>
+                        <h3>Address</h3>
+                        <p>1/A 1ST PHASE HSR LAYOUT,
+
+BENGALURU-560102</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <span class="info-icon">📞</span>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+91 94808 69072</p><br>
+                        <p>+91 81975 13710</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <span class="info-icon">✉️</span>
+                    <div>
+                        <h3>Email</h3>
+                        <p>axilexgroup@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send us a Message</h2>
+                <form id="contactForm" class="form">
+                    <div class="form-group">
+                        <label for="contactName">Name *</label>
+                        <input type="text" id="contactName" name="name" required>
+                        <span class="error-message" id="contactNameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactEmail">Email *</label>
+                        <input type="email" id="contactEmail" name="email" required>
+                        <span class="error-message" id="contactEmailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; © 2026 AxileX. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
