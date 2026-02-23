@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Mini Frontend Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">AxileX</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to AXILEX</h1>
+                <p>Transforming industries through innovation, technology, and sustainable practices.</p>
+                <a href="registration.html" class="btn btn-primary">Get Started</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Our Services & Products</h2>
+                <p style="text-align: center;">"Innovating Across Industries, Transforming the Future."</p>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"></div>
+                        <h3>AXILEX INSTITUTION</h3>
+                        <p>Education & Skill Development Services</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"></div>
+                        <h3>AXILEX CONSULTANCY SERVICES PRIVATE LIMITED</h3>
+                        <p>Technology & Digital Innovation</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"></div>
+                        <h3>XILEX BUILT-IN SOLUTIONS PVT LTD</h3>
+                        <p>Construction & Infrastructure Development</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; © 2026 AxileX. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
