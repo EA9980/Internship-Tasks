@@ -1,0 +1,51 @@
+//creating database
+CREATE DATABASE college_db;
+USE college_db;
+
+//creating table users
+CREATE TABLE Users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50),
+    email VARCHAR(100),
+    password VARCHAR(50)
+);
+
+//creating table student 
+CREATE TABLE Students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    age INT,
+    course VARCHAR(100)
+);
+
+//creating table task
+CREATE TABLE Tasks (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    task_name VARCHAR(100),
+    due_date DATE,
+    status VARCHAR(50)
+);
+
+//insert records
+INSERT INTO Users (username, email, password)
+VALUES ('muttu', 'muttu@gmail.com', '12345');
+
+INSERT INTO Students (name, age, course)
+VALUES ('Ravi', 20, 'BCA');
+
+INSERT INTO Tasks (task_name, due_date, status)
+VALUES ('Project Submission', '2026-03-10', 'Pending');
+
+INSERT INTO Users (username, email, password)
+VALUES ('eranna', 'eranna@gmail.com', '12345');
+
+INSERT INTO Students (name, age, course)
+VALUES ('eranna', 23, 'MCA');
+
+INSERT INTO Tasks (task_name, due_date, status)
+VALUES ('Axilex Project task', '2026-03-23', 'Pending');
+
+//fetch records
+SELECT * FROM Users;
+SELECT * FROM Students;
+SELECT * FROM Tasks;
