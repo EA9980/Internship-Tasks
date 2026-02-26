@@ -1,0 +1,82 @@
+import mysql.connector
+
+# Connect to MySQL (XAMPP)
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="",   # Keep empty if no password set in XAMPP
+    database="college_db"
+)
+
+cursor = conn.cursor()
+
+# Create Table
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS Students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    course VARCHAR(100)
+)
+""")
+
+print("Connected Successfully!")
+
+while True:
+    print("\n----- STUDENT DATABASE MENU -----")
+    print("1. Insert Record")
+    print("2. View Records")
+    print("3. Update Record")
+    print("4. Delete Record")
+    print("5. Exit")
+
+    choice = input("Enter your choice: ")
+
+    # INSERT
+    if choice == "1":
+        name = input("Enter Name: ")
+        age = int(input("Enter Age: "))
+        course = input("Enter Course: ")
+
+        cursor.execute("INSERT INTO Students (name, age, course) VALUES (%s, %s, %s)",
+                       (name, age, course))
+        conn.commit()
+        print("Record Inserted Successfully!")
+
+    # SELECT
+    elif choice == "2":
+        cursor.execute("SELECT * FROM Students")
+        records = cursor.fetchall()
+
+        print("\nStudent Records:")
+        for row in records:
+            print(row)
+
+    # UPDATE
+    elif choice == "3":
+        name = input("Enter Name to Update: ")
+        new_age = int(input("Enter New Age: "))
+
+        cursor.execute("UPDATE Students SET age=%s WHERE name=%s",
+                       (new_age, name))
+        conn.commit()
+        print("Record Updated Successfully!")
+
+    # DELETE
+    elif choice == "4":
+        name = input("Enter Name to Delete: ")
+
+        cursor.execute("DELETE FROM Students WHERE name=%s",
+                       (name,))
+        conn.commit()
+        print("Record Deleted Successfully!")
+
+    # EXIT
+    elif choice == "5":
+        print("Exiting Program...")
+        break
+
+    else:
+        print("Invalid Choice! Try Again.")
+
+conn.close()
